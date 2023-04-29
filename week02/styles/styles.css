@@ -52,6 +52,10 @@ img {
     margin: 0;
 }
 
+.copyright p {
+    display: inline;
+}
+
 @media screen and (max-width: 900px) {
     .content {
         grid-template-columns: 1fr 1fr;
