@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300&display=swap');
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Nunito";
+}
+
+header, footer {
+    font-family: "Bebas Neue";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 5px;
+    border: 1px greenyellow;
+    border-radius: 10px;
+    box-shadow: -1px -1px 49px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 49px 0px rgba(0,0,0,0.75);
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding-left: 5px;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
