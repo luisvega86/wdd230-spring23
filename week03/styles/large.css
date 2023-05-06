@@ -1,0 +1,22 @@
+@media screen and (min-width: 80rem) {
+    body {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 3rem;
+    }
+
+    nav a {
+		font-size: 1.3rem;
+	}
+
+    section.card {
+        padding: 3rem;
+    }
+
+    img {
+        height: 250px;
+    }
+}

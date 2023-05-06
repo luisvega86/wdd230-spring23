@@ -1,0 +1,49 @@
+@media screen and (min-width: 48rem) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 45rem;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    header, footer {
+        max-width: 700px;
+        margin: 0;
+        padding: 2rem;
+        -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+    }
+
+
+    nav {
+        box-shadow: 0 0 10px #a3c4bc;
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+
+    main {
+        max-width: 700px;
+    }
+
+    section.card {
+        padding: 2rem;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    footer {
+        -webkit-box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 10px -10px 0px rgba(0,0,0,0.5);
+    }
+}

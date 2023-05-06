@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik&display=swap');
+
+/* https://coolors.co/palette/131515-2b2c28-ffffff-339989-7de2d1 */
+:root {
+    --primary-color: #131515;
+    --secondary-color: #339989;
+    --accent1-color: #2b2c28;
+    --accent2-color: #7de2d1;
+
+    --heading-font: 'Righteous', sans-serif;
+    --paragraph-font: 'Rubik', sans-serif;
+
+    --headline-color-on-white: #131515;  /* headlines on a white background */ 
+    --headline-color-on-color: #7de2d1; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #2b2c28; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #7de2d1; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #2b2c28;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Rubik;
+}  
+
+header, footer {
+    margin: top 0;
+    width: 100%;
+    min-width: 22.5rem;
+    margin: 0;
+    background-color: #2B2C28;
+    color: #fff;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+header h1 {
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+}
+
+nav {
+	background-color: #2b2c28;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #7de2d1;
+	color: #2B2C28;
+}
+
+main {
+    display: block;
+    min-width: 22.5rem;
+    margin: 0;
+}
+
+section.card {
+    margin: 0;
+    padding: 1rem;
+    display: block;
+}
+
+section.card p {
+    text-align: justify;
+}
+
+p {
+    text-indent: 1.5rem;
+}
+
+ul li {
+    text-align: left;
+}
+
+img {
+    height: 150px;
+}
+
+footer {
+    padding: 1rem;
+}
+
+.copyright p {
+    display: inline;
+}
+
+#lastModified {
+    font-size: 0.6rem;
+    color: yellow;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+.colors th {
+    background-color: #999;
+}
+.colors td{
+width: 25%;
+height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    }
+    .secondary {
+    background-color: var(--secondary-color);
+    }
+    .accent1 {
+    background-color: var(--accent1-color);
+    }
+    .accent2{
+    background-color: var(--accent2-color);
+    }
+    
+    p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+    }
