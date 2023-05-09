@@ -11,6 +11,10 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+main {
+    min-width: 22.5rem;
+}
+
 header, footer {
     display: block;
     width: 100%;
@@ -91,6 +95,11 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
+main.container {
+    width: 100%;
+    min-width: 22.5rem;
+}
+
 .container {
     display: block;
 }
@@ -101,6 +110,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    width: 100%;
 }
 
 .left {
