@@ -16,7 +16,7 @@ const banner = document.getElementById('banner');
 function addbanner() {
     const currentDay = date.getDay();
     console.log(currentDay);
-    if (currentDay === 1 || currentDay === 3) {
+    if (currentDay === 1 || currentDay === 2) {
         banner.classList.add("displays");
         const p = document.createElement("p");
         p.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
