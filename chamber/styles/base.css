@@ -128,14 +128,22 @@ main.container {
 
 section {
     padding: 1rem;
+    margin: 1rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #aaa;
+    border-radius: 10px;
 }
 
 img {
     width: 100%;
+}
+
+.hero {
+    padding: 0;
 }
 
 .hero img {
@@ -143,6 +151,78 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+.weather-widget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.weather-icon img {
+    width: 50px;
+}
+
+.weather-info {
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.temperature {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.location,
+.description {
+    margin: 5px 0;
+}
+
+.join-us button {
+    color: #fff;
+    background-color: #131515;
+    padding: 10px 30px;
+    border: solid #2b2c28 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+        
+.join-us button:hover{
+    font-weight: 700px;
+    font-size: 1.15rem;
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #131515;
+    border: solid 2px #131515;
+}
+
+.spotlights {
+    display: block;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2c28;
+    color: #eee;
+    border: 1px solid #131515;
+    border-radius: 5px;
+    height: 12rem;
+    margin: 1rem 0;  
+}
+
 
 .copyright {
     padding: 1rem;
