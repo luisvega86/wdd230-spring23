@@ -105,4 +105,38 @@
     footer .socialMedia img {
         padding: 0 2rem 0 2rem;
     }
+
+    /* discover */
+
+    .discoveryCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        width: 90%;
+        max-width: 48rem;
+        margin: 0 auto;
+        padding: 1rem;
+        margin-bottom: 20px;
+        box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    } 
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        min-width: 50%;
+        height: 100%;
+        grid-column: 1;
+        transition: transform 0.3s ease;
+    }
+
+    .image:hover {
+        box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+        transform: scale(105%);
+    }
+    .description {
+        grid-column: 2;
+    }
 }

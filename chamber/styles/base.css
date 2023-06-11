@@ -30,8 +30,14 @@ header, footer {
 
 #datetime {
     text-align: right;
-    padding: 0 1rem 1rem 0;
+    padding-right: 1rem;
     font-size: 1rem;
+}
+
+#visitInfo {
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 0.9rem;
 }
 
 div.title {
@@ -236,4 +242,34 @@ img {
     font-size: 0.6rem;
     color: yellow;
     padding: 1rem;
+}
+
+/* discovery.html */
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discoveryCard {
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.discoveryCard p {
+    color: #2b2c28;
+    padding: 1rem;
+}
+
+.discoveryCard h2 {
+    color: #2b2c28;
+    padding: 1rem;
+}
+
+.discoveryCard img {
+    max-width: 100%;
+    object-fit: cover;
 }
