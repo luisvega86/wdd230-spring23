@@ -139,4 +139,8 @@
     .description {
         grid-column: 2;
     }
+    form {
+        width: 400px;
+        padding: 2rem;
+    }
 }

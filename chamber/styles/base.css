@@ -108,7 +108,7 @@ nav ul li.active a  {
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffff;
     color: #2b2c28;
     font-weight: 600;
 }
@@ -272,4 +272,46 @@ img {
 .discoveryCard img {
     max-width: 100%;
     object-fit: cover;
+}
+
+/* form css */
+
+form {
+    width: 300px;
+    background-color: #2b2c28;
+    color: #eee;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+label {
+    display: block;
+    margin: 0 0 10px 0;
+}
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #131515;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #2b2c28;
 }
