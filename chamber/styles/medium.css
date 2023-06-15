@@ -152,7 +152,8 @@
     /* table css  */
 
     table {
-        width: 60%;
+        display: block;
+        width: 75%;
         border-collapse: collapse;
         font-family: Arial, sans-serif;
         margin: 2rem auto;

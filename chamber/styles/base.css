@@ -328,4 +328,6 @@ input[type="submit"]:hover {
     margin: 1rem 0;
     padding: 1rem;
 }
-
+table {
+    display: none;
+}
