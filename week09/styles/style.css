@@ -2,7 +2,7 @@
 
 body {
     min-width: 400px;
-    background-color: #7B4B94;
+    background-color: #031D44;
     font-family: 'Inconsolata';
 }
 
@@ -10,7 +10,7 @@ header, footer {
     text-align: center;
     margin: 1rem;
     background-color: #dfc087;
-    border: 1px solid #000;
+    border-radius: 10px;
     text-shadow: 0px 4px 6px rgba(0,0,0,0.7);
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
 
@@ -32,16 +32,16 @@ h1, h2 {
     flex-direction: column;
     gap: 1rem;
     min-width: 300px;
-    background-color: #7D82B8;
+    background-color: #E7DFC6;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.8);
 }
 
 .info {
     background-color: #dfc087;
     padding: 1rem;
-    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.8);
 
 }
 
@@ -55,7 +55,7 @@ h1, h2 {
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
-    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.8);
 
 }
 
