@@ -331,3 +331,20 @@ input[type="submit"]:hover {
 table {
     display: none;
 }
+
+/* directory */
+
+.companyCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2c28;
+    color: #eee;
+    border: 1px solid #131515;
+    align-items: center;    
+    margin: 0;
+    padding: 2rem;
+}
+
+.companyCard img {
+    width: 100px;
+}

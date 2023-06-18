@@ -182,4 +182,20 @@
     li {
         margin-bottom: 5px;
     }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: 2rem;
+    }
+
+    .companyCard {
+        flex-direction: row;
+        border-radius: 10px;
+    }
+
+    .companyCard img {
+        margin: 1rem;
+    }
 }

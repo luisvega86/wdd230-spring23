@@ -1,0 +1,77 @@
+{
+    "companies": [
+    {
+        "picture": "./images/logoipsum-223.svg",
+        "company": "TSUNAMIA",
+        "email": "barronsuarez@tsunamia.com",
+        "phone": "(0223) 123-4567",
+        "address": "Av. Independencia 1234, Mar del Plata, Argentina",
+        "website": "https://www.tsunamia.com"
+    },
+    {
+        "picture": "./images/logoipsum-224.svg",
+        "company": "TROLLERY",
+        "email": "barronsuarez@trollery.com",
+        "phone": "(0223) 234-5678",
+        "address": "Calle Güemes 567, Mar del Plata, Argentina",
+        "website": "https://www.trollery.com"
+    },
+    {
+        "picture": "./images/logoipsum-225.svg",
+        "company": "AEORA",
+        "email": "barronsuarez@aeora.com",
+        "phone": "(0223) 345-6789",
+        "address": "Av. Colón 789, Mar del Plata, Argentina",
+        "website": "https://www.aeora.com"
+    },
+    {
+        "picture": "./images/logoipsum-226.svg",
+        "company": "DELPHIDE",
+        "email": "barronsuarez@delphide.com",
+        "phone": "(0223) 456-7890",
+        "address": "Calle San Luis 456, Mar del Plata, Argentina",
+        "website": "https://www.delphide.com"
+    },
+    {
+        "picture": "./images/logoipsum-245.svg",
+        "company": "HOPELI",
+        "email": "barronsuarez@hopeli.com",
+        "phone": "(0223) 567-8901",
+        "address": "Av. Luro 987, Mar del Plata, Argentina",
+        "website": "https://www.hopeli.com"
+    },
+    {
+        "picture": "./images/logoipsum-246.svg",
+        "company": "ILLUMITY",
+        "email": "barronsuarez@illumity.com",
+        "phone": "(0223) 678-9012",
+        "address": "Calle Mitre 654, Mar del Plata, Argentina",
+        "website": "https://www.illumity.com"
+    },
+    {
+        "picture": "./images/logoipsum-247.svg",
+        "company": "ZEDALIS",
+        "email": "barronsuarez@zedalis.com",
+        "phone": "(0223) 789-0123",
+        "address": "Av. Juan B. Justo 321, Mar del Plata, Argentina",
+        "website": "https://www.zedalis.com"
+    },
+    {
+        "picture": "./images/logoipsum-248.svg",
+        "company": "CENTURIA",
+        "email": "barronsuarez@centuria.com",
+        "phone": "(0223) 890-1234",
+        "address": "Calle Bolívar 789, Mar del Plata, Argentina",
+        "website": "https://www.centuria.com"
+    },
+    {
+        "picture": "./images/logoipsum-249.svg",
+        "company": "TROPOLI",
+        "email": "barronsuarez@tropoli.com",
+        "phone": "(0223) 901-2345",
+        "address": "Av. Jara 456, Mar del Plata, Argentina",
+        "website": "https://www.tropoli.com"
+    }
+]}
+
+
