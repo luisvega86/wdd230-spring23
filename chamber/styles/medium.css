@@ -193,6 +193,7 @@
     .companyCard {
         flex-direction: row;
         border-radius: 10px;
+        box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
     }
 
     .companyCard img {
