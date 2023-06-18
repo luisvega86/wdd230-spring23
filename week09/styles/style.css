@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Kanit&display=swap');
+
+body {
+    background-color: #7B4B94;
+    font-family: 'Inconsolata';
+}
+
+header, footer {
+    text-align: center;
+    margin: 1rem;
+    background-color: #dfc087;
+    border: 1px solid #000;
+    text-shadow: 0px 4px 6px rgba(0,0,0,0.7);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+h1, h2 {
+    font-family: 'Kanit';
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+    background-color: #7D82B8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+}
+
+.info {
+    background-color: #dfc087;
+    padding: 1rem;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0px 4px 6px rgba(0,0,0,0.7);}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.card p {
+    margin-bottom: 5px;
+}
