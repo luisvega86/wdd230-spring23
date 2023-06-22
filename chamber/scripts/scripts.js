@@ -103,7 +103,7 @@ async function getCompanyData() {
 getCompanyData();
 
 const displayCompanies = (companies) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
+    const cards = document.querySelector('div.cards-grid'); // select the output container element
 
     companies.forEach((company) => {
         let card = document.createElement('div');
@@ -130,6 +130,26 @@ const displayCompanies = (companies) => {
         card.appendChild(info);
 
         cards.appendChild(card);
+    })
+
+    const toGrid = document.getElementById('grid');
+    const toList = document.getElementById('list');
+    
+    function showList() {
+        cards.classList.add('cards-list');
+        cards.classList.remove('cards-grid');
+        toList.classList.add('hide');
+        toGrid.classList.remove('hide');
     }
-    )
+
+    function showGrid() {
+        cards.classList.add('cards-grid');
+        cards.classList.remove('cards-list');
+        toGrid.classList.add('hide');
+        toList.classList.remove('hide');
+    }
+
+    toGrid.addEventListener('click', showGrid);
+
+    toList.addEventListener('click', showList);
 }

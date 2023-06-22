@@ -183,15 +183,27 @@
         margin-bottom: 5px;
     }
 
-    .cards {
+    .cards-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
         margin: 2rem;
     }
 
+    .cards-list {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .cards-list img {
+        display: none;
+    }
+
+
     .companyCard {
         flex-direction: row;
+        margin: 1rem;
         border-radius: 10px;
         box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
     }
@@ -199,4 +211,33 @@
     .companyCard img {
         margin: 1rem;
     }
+
+    .menu {
+        display: flex;
+        margin: 0.5rem;
+    }
+
+    #grid, #list {
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #grid {
+        background-image: url(../images/grid.svg);
+    }
+
+    #list {
+        background-image: url(../images/list.svg);
+    }
+
+    .hide {
+        display: none;
+    }
+
 }
