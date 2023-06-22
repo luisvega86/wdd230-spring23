@@ -144,11 +144,8 @@ section {
     border-radius: 10px;
 }
 
-img {
-    width: 100%;
-}
-
 .hero {
+    display: block;
     padding: 0;
 }
 
