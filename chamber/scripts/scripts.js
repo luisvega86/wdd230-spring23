@@ -175,26 +175,26 @@ const displayCompanies = (companies) => {
         cards.appendChild(card);
     })
 }
-    // grid / list  toggle
+// grid / list  toggle
+const cards = document.querySelector('div.cards-grid');
+const toGrid = document.getElementById('grid');
+const toList = document.getElementById('list');
 
-    const toGrid = document.getElementById('grid');
-    const toList = document.getElementById('list');
-    
-    function showList() {
-        cards.classList.add('cards-list');
-        cards.classList.remove('cards-grid');
-        toList.classList.add('hide');
-        toGrid.classList.remove('hide');
-    }
+function showList() {
+    cards.classList.add('cards-list');
+    cards.classList.remove('cards-grid');
+    toList.classList.add('hide');
+    toGrid.classList.remove('hide');
+}
 
-    function showGrid() {
-        cards.classList.add('cards-grid');
-        cards.classList.remove('cards-list');
-        toGrid.classList.add('hide');
-        toList.classList.remove('hide');
-    }
+function showGrid() {
+    cards.classList.add('cards-grid');
+    cards.classList.remove('cards-list');
+    toGrid.classList.add('hide');
+    toList.classList.remove('hide');
+}
 
-    toGrid.addEventListener('click', showGrid);
+toGrid.addEventListener('click', showGrid);
 
-    toList.addEventListener('click', showList);
+toList.addEventListener('click', showList);
 
