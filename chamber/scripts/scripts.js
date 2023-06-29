@@ -44,6 +44,12 @@ navItems.forEach((item) => {
     });
 });
 
+const joinButton = document.querySelector('#joinUs')
+
+joinButton.addEventListener('click', () => {
+    window.location.href = "./joinus.html";
+});
+
 // lazyLoading
 
 const images = document.querySelectorAll('[data-src]');
@@ -140,7 +146,11 @@ async function getCompanyData() {
     const response = await fetch('./data/data.json');
     const data = await response.json();
     // console.table(data.companies);
-    displayCompanies(data.companies);
+    try {
+        displayCompanies(data.companies);
+    } catch {
+        displaySpotlights(data.companies);
+    }
 }
 
 getCompanyData();
@@ -171,9 +181,39 @@ const displayCompanies = (companies) => {
 
         card.appendChild(logo);
         card.appendChild(info);
-
         cards.appendChild(card);
     })
+}
+
+const displaySpotlights = (companies) => {
+    const cards = document.querySelector('section.spotlights');
+    companies.forEach((company) => {
+        if (company.membership === "gold") {
+            let card = document.createElement('div');
+            card.classList.add('companyCard');
+            let logo = document.createElement('img');
+            let info = document.createElement('div');
+            info.classList.add('info');
+    
+            logo.setAttribute('src', company.picture);
+            logo.setAttribute('alt', `The logo of ${company.company}`);
+            logo.setAttribute('loading', 'lazy');
+            logo.setAttribute('width', '200');
+            logo.setAttribute('height', '200');
+    
+            info.innerHTML = `
+            <h2>${company.company}</h2>
+            <p><strong>Address:</strong> ${company.address}</p>
+            <p><strong>Phone:</strong> ${company.phone}</p>
+            <p><strong>Email:</strong> ${company.email}</p>
+            <p><strong>Website:</strong> ${company.website}</p>
+            `;
+    
+            card.appendChild(logo);
+            card.appendChild(info);
+            cards.appendChild(card);
+        }
+    });
 }
 // grid / list  toggle
 const cards = document.querySelector('div.cards-grid');
