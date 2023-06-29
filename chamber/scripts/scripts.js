@@ -43,7 +43,7 @@ navItems.forEach((item) => {
     item.classList.add('active');
     });
 });
-
+// join button
 const joinButton = document.querySelector('#joinUs')
 
 joinButton.addEventListener('click', () => {
